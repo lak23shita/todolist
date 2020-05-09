@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Josefin+Sans");
+
+.title {
+  font-family: "Gloria Hallelujah", cursive;
+  font-size: 50px;
+}
+
+.oneLiner {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-style: italic;
+}

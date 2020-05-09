@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans");
+
+.todoItem {
+  width: 200px;
+  min-height: 50px;
+  border: none;
+  background-color: rgb(87, 162, 228);
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  color: #081e38;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 16px;
+
+  transition: background-color 0.5s, color 0.5s;
+}
+
+.todoItem:hover {
+  background-color: #6cd4ff;
+  color: rgb(112, 25, 25);
+
+  transition: background-color 0.5s, color 0.5s;
+}
+.todoItem:active {
+  outline: 0;
+  border: none;
+  background-color: #14345b;
+  color: rgb(173, 40, 40);
+}
+
+.submitButton {
+  border: none;
+  background-color: rgb(61, 128, 187);
+  font-family: "Josefin Sans", sans-serif;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.submitButton:hover {
+  background-color: #6cd4ff;
+  color: rgb(148, 36, 36);
+
+  transition: background-color 0.5s, color 0.5s;
+}
+.submitButton:active {
+  outline: 0;
+  border: none;
+  background-color: #14345b;
+  color: white;
+}
+
+.inputBox {
+  border: none;
+  background-color: #d1766f;
+  color: black;
+  font-family: "Josefin Sans", sans-serif;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px;
+
+  transition: background-color 0.5s, color 0.5s;
+}
+
+.inputBox:hover {
+  background-color: #fe938c;
+  color: rgb(24, 37, 226);
+
+  transition: background-color 0.5s, color 0.5s;
+}
+
+.inputBox:focus {
+  outline: 0;
+  border: none;
+}
